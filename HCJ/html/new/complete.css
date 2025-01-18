@@ -1,0 +1,97 @@
+@media all and (min-width:768px) and (max-width:1023px) {
+    div{
+        font-size: 2rem;
+    }
+    
+}
+@media all and (max-width:479px) {
+    div{
+        font-size: 2rem;
+    }
+    #completeMent{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        font-weight: 900;
+    }
+    #noMoneyMent{
+        font-size: 1.5rem;
+    }
+    #luckyMoneyImgBox{
+        width: 75%;
+        background-color: bisque;
+        margin-bottom: 50%;
+    }
+    #luckyMoneyImg{
+        width: 100%;
+        height: 100%;
+        /* object-fit: conver; */
+    }
+    #layerPopup{
+        width: 100%;
+        height: 27%;
+        border-radius: 24px 24px 0 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 73%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+    }
+    .shareMent{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        top: 1rem;
+        font-size: 1.5rem;
+        gap: 0.5rem;
+    }
+    .popupButtonDiv{
+        width: 80%;
+        min-height: 5rem;
+        max-height: 5rem;
+        background-color: #ffffff;
+        border-radius: 12px;
+        font-size: 2rem;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .popupButtonDiv:hover{
+        background-color: #b8b8b8;
+        width: 80%;
+        min-height: 5rem;
+        max-height: 5rem;
+        border-radius: 12px;
+        font-size: 2rem;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .popupButton{
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        font-weight: 700;
+    }
+    #layerPopupCloseDiv{
+        position: fixed;
+        bottom: 2rem;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #layerPopupCloseBtn{
+        width: 100%;
+        height: 100%;
+    }
+}
+

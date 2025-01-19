@@ -6,13 +6,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="/HCJ/css/style.css">
     <link rel="stylesheet" href="/HCJ/html/new/complete.css">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
 </head>
 <body>
     <div id="completeMent">복주머니가 만들어졌어요!</div>
     <div id="noMoneyMent">복주머니에 용돈이 하나도 없어요ㅠ</div>
     <div id="luckyMoneyImgBox">
         <img id="luckyMoneyImg" src="/HCJ/img/luckymoney.jfif" alt="복주머니">
+    </div>
+    <div id="toastPopup">
+        링크가 복사되었습니다!
     </div>
     <div id="layerPopup" >
         <div class="shareMent">
@@ -23,7 +26,7 @@
             <button class="popupButton" id="shareButton">SNS로 공유하기</button>
         </div>
         <div class="popupButtonDiv" id="copyLingButtonDiv">
-            <button class="popupButton" id="copyLinkButton">링크 복사하기</button>
+            <button class="popupButton" id="copyLinkButton" data-clipboard-text>링크 복사하기</button>
         </div>
         <div id="layerPopupCloseDiv"> 
             <button id="layerPopupCloseBtn">닫기</button>
@@ -31,4 +34,5 @@
     </div>
 
 </body>
+<script src="/HCJ/html/new/complete.js"></script>
 </html>

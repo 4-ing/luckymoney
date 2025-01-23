@@ -1,0 +1,34 @@
+@media all and (max-width: 479px) {
+    div{
+        font-size: 2rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 150px;
+        color: #333;
+    }
+
+    .luck-image {
+        margin: 20px 0; 
+    }
+
+    .button-container {
+        margin-top: 15px;
+    }
+
+    button {
+        background-color: #f06292;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    button:hover {
+        background-color: #e91e63;
+    }
+}

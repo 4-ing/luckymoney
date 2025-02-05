@@ -1,0 +1,79 @@
+/* 기본 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* 부드러운 핑크 배경 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 컨테이너 */
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+/* 제목 */
+h1 {
+    font-size: 20px;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+/* 입력 필드 */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 동의 체크박스 섹션 */
+.agreement-box {
+    text-align: left;
+    margin-top: 15px;
+}
+
+/* 체크박스 그룹 */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* 구분선 */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+/* 버튼 */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #d81b60;
+}

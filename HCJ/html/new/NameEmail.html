@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>복주머니 이름 짓기</title>
+    <link rel="stylesheet" href="NameEmail.css">
+</head>
+<body>
+    <div class="container">
+        <h1>복주머니에 이름을 지어주세요!</h1>
+
+        <form id="pouch-form">
+            <label for="pouch-name">복주머니 이름</label>
+            <input type="text" id="pouch-name" placeholder="복주머니의 이름을 입력하세요" required>
+
+            <label for="email">이메일 (선택)</label>
+            <input type="email" id="email" placeholder="example@email.com">
+
+            <!-- 체크박스 섹션 -->
+            <div class="agreement-box">
+                <input type="checkbox" id="check-all">
+                <label for="check-all"><strong>전체 동의</strong></label>
+
+                <hr> <!-- 구분선 -->
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="age-check" class="agreement">
+                    <label for="age-check">만 14세 이상입니다. (필수)</label>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms-check" class="agreement">
+                    <label for="terms-check">이용 약관에 동의합니다. (필수)</label>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="privacy-check" class="agreement">
+                    <label for="privacy-check">개인정보 수집 및 이용에 동의합니다. (필수)</label>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="marketing-check" class="agreement">
+                    <label for="marketing-check">마케팅 정보 수신에 동의합니다. (선택)</label>
+                </div>
+            </div>
+
+            <button type="submit">완료</button>
+        </form>
+    </div>
+
+    <script src="NameEmail.js"></script>
+</body>
+</html>

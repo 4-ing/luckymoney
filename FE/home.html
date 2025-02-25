@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>복줄머니</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 flex justify-center items-center h-screen">
+    <div id="main" class="flex flex-col w-96 bg-white h-screen">
+        <div id="image-section"></div>
+        <div id="login-section">
+            <div class="text-3xl font-bold underline">내 복주머니를 채워줘!</div>
+            <div id="login-form" class="flex flex-col">
+                <form action="login.html" method="post" class="flex flex-col justify-items-center items-center">
+                    <input type="text" name="id" placeholder="아이디" class="mb-2 border-2 border-gray-300 border-solid rounded w-max">   
+                    <input type="password" name="pw" placeholder="비밀번호">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded max-w-11/12">로그인</button>
+                </form>
+            </div>
+            <div id="no-account flex flex-col">
+                <span>계정도 없는 천한 것</span>
+                <span id="register-text">회원가입</span>
+                <div id="line"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
